@@ -20,13 +20,11 @@ public class BallController : MonoBehaviour
         public Vector3 direction;
     }
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         foreach (KeyDirection key in keys)
